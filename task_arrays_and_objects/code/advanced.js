@@ -37,10 +37,11 @@ unitedKingdom = [
 // england.touristAttractions = ["Lake District"];
 
 const englandIndex = unitedKingdom.findIndex((country) => country.name === "England");
-unitedKingdom[englandIndex] = {
-  ...unitedKingdom[englandIndex],
-  touristAttractions: ["Lake District"],
-};
+unitedKingdom[englandIndex].touristAttractions = ["Lake District"];
+// unitedKingdom[englandIndex] = {
+//   ...unitedKingdom[englandIndex],
+//   touristAttractions: ["Lake District"],
+// };
 console.log(unitedKingdom);
 
 /**
