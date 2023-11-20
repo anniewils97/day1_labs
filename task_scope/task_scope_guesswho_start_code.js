@@ -1,18 +1,18 @@
-// // GUESS 1 ///////////////////
-let guess = {
-  hair_colour: "red",
-  eye_colour: "blue",
-  hat: false,
-  glasses: true,
-  firstName: "Joseph",
-};
+// // // GUESS 1 ///////////////////
+// let guess = {
+//   hair_colour: "red",
+//   eye_colour: "blue",
+//   hat: false,
+//   glasses: true,
+//   firstName: "Joseph",
+// };
 
-const guessWho = function () {
-  return `Guess who is ${guess.firstName}`;
-};
+// const guessWho = function () {
+//   return `Guess who is ${guess.firstName}`;
+// };
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
 
 // Prediction: Joseph maybe?
 
