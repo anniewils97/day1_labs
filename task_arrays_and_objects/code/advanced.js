@@ -32,9 +32,16 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-england = null;
+//much simpler solution
+// england = unitedKingdom.find(country => country.name === "England");
+// england.touristAttractions = ["Lake District"];
 
-// console.log(england);
+const englandIndex = unitedKingdom.findIndex((country) => country.name === "England");
+unitedKingdom[englandIndex] = {
+  ...unitedKingdom[englandIndex],
+  touristAttractions: ["Lake District"],
+};
+console.log(unitedKingdom);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
